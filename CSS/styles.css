@@ -1,0 +1,139 @@
+/* цвет основного текста #757575 
+  вторичный цвет #212121
+  в адресе rgba(255, 255, 255, 0.6)
+  h1 #FFFFFF;
+  синий #2196F3*/
+:root{
+  --basic-text-color:#757575;
+  --title-text--color:#212121;
+  --accent-color:#2196F3;
+  --secondary-text-color:#FFFFFF;
+}
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--basic-text-color);
+    background: #F5F5F5;
+  }
+
+  .list{
+    list-style: none;
+
+  }
+
+/* Стили заголовка  */
+
+  .logo-link{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-text--color); 
+    text-decoration: none;
+  } 
+
+  .logo-span{
+    color: var(--accent-color);
+  }
+
+  .site-nav .link{
+    color: var(--title-text--color); 
+    text-decoration: none;
+  } 
+
+  .site-nav .link:hover,
+  .site-nav .link:focus
+  {
+    color: var(--accent-color);
+  }
+
+  .site-nav .link.current{
+    color: var(--accent-color);
+  }
+
+  /* Стилі секцій */
+
+  .title{   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+  }
+  .title-button{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+    background: #2196F3;
+  }
+  /* Секція Особливості */
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.list-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text--color);
+}
+
+.list-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Секція Чим займаємося */
+
+  .section>.section-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text--color);
+}
+/* Секція Наша команда */
+ .list-title-team{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--title-text--color);
+}
+
+.list-text-team{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+  /* Стили футера  */
+  .logo-link>.logo-text{
+    color: var(--secondary-text-color);
+}

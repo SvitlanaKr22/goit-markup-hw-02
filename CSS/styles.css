@@ -1,13 +1,8 @@
-/* цвет основного текста #757575 
-  вторичный цвет #212121
-  в адресе rgba(255, 255, 255, 0.6)
-  h1 #FFFFFF;
-  синий #2196F3*/
 :root{
   --basic-text-color:#757575;
   --title-text-color:#212121;
-  --accent-color:#2196F3;
   --secondary-text-color:#FFFFFF;
+  --accent-color:#2196F3;
   --primary-bg-color:#FFFFFF;
   --basic-background-color:#F5F5F5;
   --secondary-background-color:#F5F4FA;
@@ -200,12 +195,12 @@
     color: var(--secondary-text-color);
   } 
 
-.link-address{
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
+  .link-address{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255 255 255 / .6);
+    text-decoration: none;
+  }
 
